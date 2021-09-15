@@ -6,7 +6,7 @@ namespace CS_pro
     class Program
     {
         static void Main(string[] args)
-        {
+        {      /// calculating the temperature an humidity of some cities.
             Console.WriteLine("Where we are going");
             WeatherUtilities.Report("Oulu", WeatherUtilities.FahrenheitToCelsius(65), 73);
             WeatherUtilities.Report("Denver", WeatherUtilities.FahrenheitToCelsius(77), 55);
